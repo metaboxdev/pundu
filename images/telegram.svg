@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html >
+<head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" crossorigin="anonymous" href="https://fonts.gstatic.com">
+<link rel="preload" as="font" type="font/woff" crossorigin="anonymous" href="../fonts/cheri.woff">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap">
+<link rel="preload" as="style" href="https://fonts.cdnfonts.com/css/cheri">
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/cheri">
+<style>@font-face{font-family:"Cherl2";font-weight:400;font-style:normal;font-display:optional;src:url('../fonts/cheri.woff') format('woff');}.mont{font-family:"Cherl2";}</style>
+<style>.inter{font-family:"Inter",sans-serif;}.mont{font-family:"Cherl2",sans-serif;}</style>
+<link rel="stylesheet" href="../_nuxt/entry.lUwMZ0Mk.css">
+<link rel="modulepreload" as="script" crossorigin href="../_nuxt/entry.qYIPzR3Q.js">
+<link rel="prefetch" as="style" href="../_nuxt/default.RRc9BfvN.css">
+<link rel="prefetch" as="script" crossorigin href="../_nuxt/default.6z5O6pD3.js">
+<link rel="prefetch" as="script" crossorigin href="../_nuxt/_plugin-vue_export-helper.x3n3nnut.js">
+<link rel="prefetch" as="style" href="../_nuxt/error-404.TsBWxgAa.css">
+<link rel="prefetch" as="script" crossorigin href="../_nuxt/error-404.voLzuBeB.js">
+<link rel="prefetch" as="style" href="../_nuxt/error-500.s2VBNbvW.css">
+<link rel="prefetch" as="script" crossorigin href="../_nuxt/error-500.KdHgIWjc.js">
+<script type="module" src="../_nuxt/entry.qYIPzR3Q.js" crossorigin></script></head>
+<body ><div id="__nuxt"></div><script type="application/json" id="__NUXT_DATA__" data-ssr="false">[{"_errors":1,"serverRendered":2,"data":3,"state":4,"once":5},{},false,{},{},["Set"]]</script>
+<script>window.__NUXT__={};window.__NUXT__.config={public:{},app:{baseURL:"/",buildAssetsDir:"/_nuxt/",cdnURL:""}}</script></body>
+</html>
